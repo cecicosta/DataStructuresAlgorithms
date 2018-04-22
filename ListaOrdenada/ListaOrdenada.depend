@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1524422917 source:e:\mestrado\estrutura de dados\projetos\listaordenada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ordered_list.h"
+
+1524422785 e:\mestrado\estrutura de dados\projetos\listaordenada\ordered_list.h
+
+1524422812 source:e:\mestrado\estrutura de dados\projetos\listaordenada\ordered_list.c
+	"ordered_list.h"
+	<stdio.h>
+
