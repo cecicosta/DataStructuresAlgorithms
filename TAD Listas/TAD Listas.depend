@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1524419183 source:e:\mestrado\estrutura de dados\projetos\tad listas\list.c
+	"list.h"
+	<stdio.h>
+
+1524417908 e:\mestrado\estrutura de dados\projetos\tad listas\list.h
+
+1524418114 source:e:\mestrado\estrutura de dados\projetos\tad listas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+

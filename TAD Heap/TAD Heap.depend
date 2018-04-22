@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1522169460 source:c:\users\cesar\tad heap\heap.c
+	"Heap.h"
+	<stdio.h>
+
+1522168898 c:\users\cesar\tad heap\heap.h
+
+1522170857 source:c:\users\cesar\tad heap\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Heap.h"
+
