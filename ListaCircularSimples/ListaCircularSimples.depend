@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1524426440 source:e:\mestrado\estrutura de dados\projetos\listacircularsimples\circle_list.c
+	"circle_list.h"
+	<stdio.h>
+
+1524423826 e:\mestrado\estrutura de dados\projetos\listacircularsimples\circle_list.h
+
+1524426164 source:e:\mestrado\estrutura de dados\projetos\listacircularsimples\main.c
+	<stdio.h>
+	<stdlib.h>
+	"circle_list.h"
+

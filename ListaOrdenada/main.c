@@ -11,7 +11,7 @@ int main()
     while(1){
 
         int operation = 0;
-        printf("Operations: \n create list (0) \n insert element (1) \n print values (2) \n print values rec (3) \n print values backward (4) \n remove value (5)  \n remove value rec (6) \n find value (7) \n free list (8) \n select list (9) \n compare lists (10) \n\n");
+        printf("Operations: \n create list (0) \n insert element (1) \n print values (2) \n print values rec (3) \n print values backward (4) \n remove value (5)  \n remove value rec (6) \n find value (7) \n free list (8) \n select list (9) \n compare lists (10) \n is empty (11) \n\n");
         scanf("%d", &operation);
 
         int entry = 0;
@@ -75,6 +75,12 @@ int main()
                 else
                     printf("The lists are different\n");
 
+                continue;
+            case 11:
+                if(is_list_empty(l))
+                    printf("List empty\n");
+                else
+                    printf("List not empty\n");
                 continue;
             default:
                 continue;

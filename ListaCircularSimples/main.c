@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "list.h"
+#include "circle_list.h"
 int main()
 {
 
     list * l = NULL;
     while(1){
         int operation = 0;
-        printf("Operations: \n create list (0) \n insert element (1) \n print values (2) \n print values rec (3) \n print values backward (4) \n remove value (5)  \n remove value rec (6) \n find value (7) \n free list (8) \n is empty (9) \n\n");
+        printf("Operations: \n create list (0) \n insert element (1) \n print values (2) \n print values rec (3) \n \n is empty? (4) \n remove value (5) \n remove value rec (6) \n find value (7) \n free list (8) \n\n");
         scanf("%d", &operation);
 
         int entry = 0;
@@ -35,7 +35,10 @@ int main()
                 print_list_rec(l);
                 continue;
             case 4:
-                print_list_rev(l);
+                if(is_list_empty(l))
+                    printf("List empty\n");
+                else
+                    printf("List not empty\n");
                 continue;
             case 5:
                 printf("value to remove: ");
@@ -55,12 +58,7 @@ int main()
             case 8:
                 free_list(l);
                 return 0;
-            case 9:
-                if(is_list_empty(l))
-                    printf("List empty\n");
-                else
-                    printf("List not empty\n");
-                continue;
+
             default:
                 continue;
         }
