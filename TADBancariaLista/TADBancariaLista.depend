@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1524442526 source:e:\mestrado\estrutura de dados\projetos\tadbancarialista\conta_bancaria.c
+	"conta_bancaria.h"
+
+1524434417 e:\mestrado\estrutura de dados\projetos\tadbancarialista\conta_bancaria.h
+
+1524442542 source:e:\mestrado\estrutura de dados\projetos\tadbancarialista\conta_fidelidade.c
+	"conta_fidelidade.h"
+
+1524434451 e:\mestrado\estrutura de dados\projetos\tadbancarialista\conta_fidelidade.h
+
+1524442550 source:e:\mestrado\estrutura de dados\projetos\tadbancarialista\conta_poupanca.c
+	"conta_poupanca.h"
+
+1524434465 e:\mestrado\estrutura de dados\projetos\tadbancarialista\conta_poupanca.h
+
+1524445771 source:e:\mestrado\estrutura de dados\projetos\tadbancarialista\list.c
+	"list.h"
+	<stdio.h>
+	"conta_bancaria.h"
+	"conta_fidelidade.h"
+	"conta_poupanca.h"
+
+1524442693 e:\mestrado\estrutura de dados\projetos\tadbancarialista\list.h
+
+1524445414 source:e:\mestrado\estrutura de dados\projetos\tadbancarialista\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+	"conta_bancaria.h"
+	"conta_poupanca.h"
+	"conta_fidelidade.h"
+

@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="ListaCircularDupla" />
+		<Option title="TADBancariaLista" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/ListaCircularDupla" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/TADBancariaLista" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/ListaCircularDupla" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/TADBancariaLista" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -31,10 +31,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="circle_list.c">
+		<Unit filename="conta_bancaria.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="circle_list.h" />
+		<Unit filename="conta_bancaria.h" />
+		<Unit filename="conta_fidelidade.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conta_fidelidade.h" />
+		<Unit filename="conta_poupanca.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conta_poupanca.h" />
+		<Unit filename="list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="list.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -42,7 +54,6 @@
 			<code_completion />
 			<envvars />
 			<debugger />
-			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

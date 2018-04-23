@@ -56,7 +56,7 @@ int main()
                 printf("Value found at position %d in list \n (-1 equals 'not found')\n", find_node_pos(l, entry));
                 continue;
             case 8:
-                free_list(l);
+                prin
                 return 0;
 
             default:
